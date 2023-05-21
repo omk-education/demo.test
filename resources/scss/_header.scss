@@ -1,0 +1,41 @@
+.header {
+    // grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+    background-color: #fff;
+
+    display: grid;
+    grid-template-columns: 1fr minmax(300px, auto) minmax(900px, auto) 1fr;
+    grid-template-rows: 1fr;
+
+    // центрируем
+    align-items: center;
+
+    &__logo {
+        grid-column: 2 / 3;
+
+        img {
+            height: 60px;
+        }
+    }
+
+    &__menu {
+        grid-column: 3 / 4;
+    }
+
+    // контейнер элементов меню
+    &__list {
+        display: grid;
+        // grid-template-columns: 1fr 1fr;
+        grid-auto-flow: column;
+        justify-items: end;
+        justify-content: end;
+        column-gap: 20px;
+
+        list-style: none;
+    }
+
+    &__link {
+        @include button;
+    }
+}

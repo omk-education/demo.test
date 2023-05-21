@@ -5,5 +5,7 @@ export default {
 </script>
 
 <template>
-    VueFooter
+    <footer class="footer">
+        <div class="footer__copyright">&copy; City, 2023</div>
+    </footer>
 </template>

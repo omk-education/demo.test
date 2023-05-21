@@ -13,7 +13,7 @@ export default {
 
 <template>
     <vue-header></vue-header>
-    <main>
+    <main class="main">
         <router-view></router-view>
     </main>
     <vue-footer></vue-footer>

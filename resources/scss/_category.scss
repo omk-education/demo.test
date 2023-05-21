@@ -1,0 +1,16 @@
+.category {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+
+    &__items {
+        //
+    }
+
+    &__item {
+        font-size: 1.5rem;
+        padding: 10px;
+        margin-bottom: 10px;
+        list-style: none;
+    }
+}

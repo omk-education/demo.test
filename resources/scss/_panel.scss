@@ -1,0 +1,37 @@
+.panel {
+    display: grid;
+    grid-template-columns: 1fr minmax(200px, 1fr) minmax(1000px, 1fr) 1fr;
+    grid-template-rows: 1fr;
+
+    // .panel__menu
+
+    &__menu {
+        grid-column: 2 / 3;
+        // background-color: #dcdcdc;
+    }
+
+    // .panel__workspace
+
+    &__workspace {
+        grid-column: 3 / 4;
+        display: grid;
+    }
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 1fr;
+    align-items: start;
+    padding: 10px;
+
+    &__button {
+        grid-row: 1 / 2;
+        @include button;
+        text-align: center;
+    }
+
+    &__form {
+        grid-row: 2 / 3;
+    }
+}

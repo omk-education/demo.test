@@ -1,0 +1,30 @@
+.form {
+    &__row {
+        margin-bottom: 20px;
+    }
+
+    &__label {
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+
+    &__input {
+        @include input;
+    }
+
+    &__checkbox {
+        @include checkbox;
+    }
+
+    &__message {
+        color: #b80000;
+    }
+
+    &__button {
+        @include button;
+    }
+
+    &__select {
+        @include input;
+    }
+}
