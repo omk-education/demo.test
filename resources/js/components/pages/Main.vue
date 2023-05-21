@@ -1,9 +1,9 @@
 <script>
 export default {
-    name: "VueFooter",
+    name: "Main",
 };
 </script>
 
 <template>
-    VueFooter
+    Main
 </template>
