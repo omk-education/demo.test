@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <!-- Форма регистраци -->
+    <!-- Форма создания заявки -->
     <h2 class="main__title">Создание заявки</h2>
     <form class="main__form form">
         <div class="form__row">

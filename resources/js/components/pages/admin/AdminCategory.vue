@@ -5,8 +5,10 @@ export default {
 </script>
 
 <template>
-    <!-- Форма регистраци -->
-    <h2 class="main__title">Категории</h2>
+    <!-- Создание категорий -->
+    <h2 class="main__title">
+        Категории
+    </h2>
     <form class="main__form form">
         <div class="form__row">
             <label for="name" class="form__label">
